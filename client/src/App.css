@@ -1,0 +1,26 @@
+/* Spacing between edit button and text */
+.editProfile-btn {
+    margin-right: 0.5rem;
+}
+
+/* Start with almost no visibility */
+.fade-enter {
+    opacity: 0.01;
+}
+
+/* Transition to full visibility */
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
+}
+
+/* Start with full visibility */
+.fade-exit {
+    opacity: 1;
+}
+
+/* Transition to almost no visibility */
+.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 1000ms ease-in;
+}
